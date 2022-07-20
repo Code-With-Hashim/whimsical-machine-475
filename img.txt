@@ -115,4 +115,22 @@ itemcartArr=[
 
 ]
 
+imgdata["https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/068d6c36-1d4f-4786-86e5-4233eb873c03_425x425.JPG",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ba3898e3-11dd-4a8b-836b-7dc5a53b9590_425x425.jpg",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/e891782b-ff9e-4e99-99b2-d2a68ebfe312_425x425.JPG",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/e9a62a91-0970-4fd4-839a-0239817477ba_425x425.jpg",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/49714d80-7784-4190-84f3-c927cbd861f1_425x425.jpg",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/74bf1323-3278-4e4c-89b4-a4dec49d663b_425x425.jpg",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/3e995fa3-109c-4ed9-ad60-1403f02d19b1_425x425.jpg",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/2d5b84d3-bd1a-4b3c-8223-18b73acceafb_425x425.jpg",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c0581bb8-218a-4fcf-a38b-e7a872f1ad6e_425x425.jpg",
+"https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/47bfa747-9af7-4ee0-86d4-6a3a8898154b_425x425.jpg"
+]
+
+let bannerimg=[
+    "https://www.naturesbasket.co.in/Images/homepageblogbanner/NB_1320x355-blog2.jpg",
+    "https://www.naturesbasket.co.in/Images/homepageblogbanner/NB_paneerBlog_banner.jpg",
+    "https://www.naturesbasket.co.in/Images/homepageblogbanner/NB_pastaBlog_banner.jpg"
+]
+
 

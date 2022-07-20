@@ -100,7 +100,7 @@ p :nth-last-child(2) {
 }
 
 #banner>img,
-#slidedimg1>img,
+.slidedimg1>img,
 #gift>div>img {
     border-radius: 10px;
     width: 100%;
@@ -110,31 +110,35 @@ p :nth-last-child(2) {
 }
 
 #right-btn,
-#left-btn {
+#left-btn,
+#left-btn3,
+#right-btn3 {
     width: 3%;
 }
 
-#right-btn {
+#right-btn,
+#right-btn3 {
     right: 10px;
 }
 
-#left-btn {
+#left-btn,
+#left-btn3 {
     transform: rotateY(180deg);
     left: 10px;
 }
 
-#slidedimg1 {
+.slidedimg1 {
     width: 100%;
     position: relative;
 
 }
 
-#slidedimg1>input[type="image"] {
+.slidedimg1>input[type="image"] {
     position: absolute;
     top: 50%;
 }
 
-#gift {
+#gift,#gift1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, auto);
@@ -154,12 +158,14 @@ p :nth-last-child(2) {
 
 
 }
-#shopcategory{
+
+#shopcategory {
     width: 100vw;
     height: auto;
     display: flex;
 }
-#left-tab{
+
+#left-tab {
     width: 5%;
     height: auto;
     display: flex;
@@ -167,68 +173,81 @@ p :nth-last-child(2) {
     justify-content: center;
     background-color: white;
 }
-#product{
+
+#product {
     display: grid;
     margin-left: 50px;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(1,auto);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, auto);
     gap: 20px;
 }
-#product>div>img{
+
+#product>div>img {
     border-radius: 10px;
-    box-shadow: 10px 10px 5px 0px rgba(242,203,242,1);
+    box-shadow: 10px 10px 5px 0px rgba(242, 203, 242, 1);
     transition: 0.6s ease;
 }
+
 #product>div>p {
     cursor: pointer;
     padding-bottom: 10px;
     color: gray;
-    border-bottom: 1px solid rgb(158, 155, 155) ;
+    border-bottom: 1px solid rgb(158, 155, 155);
 }
-#product>div>p:nth-last-child(1){
+
+#product>div>p:nth-last-child(1) {
     color: green;
     border-bottom: 0px;
 }
-#product>div>p:nth-last-child(5){
+
+#product>div>p:nth-last-child(5) {
     font-size: 20px;
     padding-bottom: 2px;
     border-bottom: 0px;
 }
+
 /* Trending Offers */
-#item{
+.item {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, auto);
     gap: 30px;
 }
 
-#item>div>img{
+.item>div>img {
     width: 100%;
 }
-#item>div{
+
+.item>div {
     text-align: center;
 }
-#item>div>p:nth-child(2){
+
+.item>div>p:nth-child(2) {
     color: purple;
     font-size: 12px;
     margin-bottom: -10px;
 }
-#item>div>p:nth-child(3){
+
+.item>div>p:nth-child(3) {
     color: gray;
     font-size: 18px;
     margin-bottom: -10px;
 }
-#item>div>p:nth-child(4){
+
+.item>div>p:nth-child(4) {
     margin-bottom: -8px;
 }
-#item>div>p:nth-child(5){
+
+.item>div>p:nth-child(5) {
     color: purple;
     font-size: 12px;
 }
-#item>div:hover{
+
+.item>div:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-#item>div>div>button{
+
+.item>div>div>button {
     padding: 6px 10px 6px 10px;
     margin-right: 5px;
     cursor: pointer;
@@ -237,28 +256,95 @@ p :nth-last-child(2) {
     color: gray;
     border-radius: 5px;
 }
-#item>div>div>input{
+
+.item>div>div>input {
     width: 24%;
     margin-bottom: -3%;
     border-radius: 5px;
 
 }
-#item>div>div{
+
+.item>div>div {
     padding-bottom: 20px;
 }
 
-#item{
+.item {
     position: relative;
 }
 
-#left-btn1{
+#left-btn1,
+#left-btn2 {
     left: 10px
 }
-#right-btn1{
+
+#right-btn1,
+#right-btn2 {
     right: 10px;
 }
 
-#item>input{
+.item>input {
     position: absolute;
     top: 50%;
-} 
+}
+
+#offer>div>img {
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        border-radius: 10px;
+    margin-top: 20px;
+}
+#offer>div>p:nth-child(2){
+    border: 1px solid purple;
+    width: 70%;
+    padding: 3px 5px 3px 5px ;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+
+#gift1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 350px);
+    gap: 40px
+}
+
+#gift1>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+/* WILL BE FIXED IT */
+
+#brand {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#left-tab1 {
+    width: 5%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#brandname {
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 20px;
+}
+
+#para>h3{
+    margin-bottom: -10px;
+}
+
+
