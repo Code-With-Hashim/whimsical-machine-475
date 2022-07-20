@@ -1,0 +1,264 @@
+#navbar {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    color: rgb(58, 56, 56);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+
+
+}
+
+#navbar>img {
+    width: auto;
+    height: 70%;
+}
+
+#navbar1,
+#search {
+    display: flex;
+    position: relative;
+    left: 310px;
+    top: -80px;
+    width: 75%;
+    height: 50px;
+    justify-content: space-evenly;
+
+
+}
+
+#location {
+    margin-top: 10px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#navbar1>input {
+    margin-top: 10px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#navbar1>p {
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+p :nth-last-child(2) {
+    margin-left: 30px;
+}
+
+#search {
+    width: 60%;
+    position: relative;
+    left: 320px;
+    height: auto;
+}
+
+#searchbar {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    color: gray;
+
+}
+
+#searchbar::placeholder {
+    text-align: center;
+}
+
+/* list */
+#list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 115px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#list>p {
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#list>p:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(10, 118, 10);
+
+}
+
+#list>p:nth-child(1):hover {
+    border: none;
+}
+
+#banner>img,
+#slidedimg1>img,
+#gift>div>img {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 0.3rem;
+    cursor: pointer;
+
+}
+
+#right-btn,
+#left-btn {
+    width: 3%;
+}
+
+#right-btn {
+    right: 10px;
+}
+
+#left-btn {
+    transform: rotateY(180deg);
+    left: 10px;
+}
+
+#slidedimg1 {
+    width: 100%;
+    position: relative;
+
+}
+
+#slidedimg1>input[type="image"] {
+    position: absolute;
+    top: 50%;
+}
+
+#gift {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 40px;
+    margin-top: 15px;
+
+}
+
+#gift>div>img {
+    box-shadow: 10px 17px 18px -8px rgba(0, 0, 0, 0.48);
+}
+
+.heading-pr {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 35px;
+
+
+}
+#shopcategory{
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+#left-tab{
+    width: 5%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#product{
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 20px;
+}
+#product>div>img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(242,203,242,1);
+    transition: 0.6s ease;
+}
+#product>div>p {
+    cursor: pointer;
+    padding-bottom: 10px;
+    color: gray;
+    border-bottom: 1px solid rgb(158, 155, 155) ;
+}
+#product>div>p:nth-last-child(1){
+    color: green;
+    border-bottom: 0px;
+}
+#product>div>p:nth-last-child(5){
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 0px;
+}
+/* Trending Offers */
+#item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 30px;
+}
+
+#item>div>img{
+    width: 100%;
+}
+#item>div{
+    text-align: center;
+}
+#item>div>p:nth-child(2){
+    color: purple;
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+#item>div>p:nth-child(3){
+    color: gray;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+#item>div>p:nth-child(4){
+    margin-bottom: -8px;
+}
+#item>div>p:nth-child(5){
+    color: purple;
+    font-size: 12px;
+}
+#item>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#item>div>div>button{
+    padding: 6px 10px 6px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5px;
+}
+#item>div>div>input{
+    width: 24%;
+    margin-bottom: -3%;
+    border-radius: 5px;
+
+}
+#item>div>div{
+    padding-bottom: 20px;
+}
+
+#item{
+    position: relative;
+}
+
+#left-btn1{
+    left: 10px
+}
+#right-btn1{
+    right: 10px;
+}
+
+#item>input{
+    position: absolute;
+    top: 50%;
+} 

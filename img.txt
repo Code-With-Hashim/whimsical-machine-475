@@ -1,0 +1,118 @@
+imageArray=[{https://d1z88p83zuviay.cloudfront.net/BannerImages/0f2301bb-4607-47f9-859c-1c2c21642159_1320x376.jpg},
+{https://d1z88p83zuviay.cloudfront.net/BannerImages/95cca699-6c66-4df8-ace2-7effeddecfaa_1320x376.jpg},
+{https://d1z88p83zuviay.cloudfront.net/BannerImages/bf01d76e-4c92-4046-832a-7b50b9ad266e_1320x376.jpg},
+{https://d1z88p83zuviay.cloudfront.net/BannerImages/88d68b3d-2bfc-497e-af24-dd2b5378b675_1320x376.jpg},
+{https://d1z88p83zuviay.cloudfront.net/BannerImages/56d58540-9be6-436e-9046-3a75e7f3928b_1320x376.jpg"},
+{https://d1z88p83zuviay.cloudfront.net/BannerImages/f2b41376-0541-4bfa-932f-887339692b60_1320x376.jpg},
+{https://d1z88p83zuviay.cloudfront.net/BannerImages/f2b41376-0541-4bfa-932f-887339692b60_1320x376.jpg}]
+
+
+ FoodImages=["https://gnbdevcdn.s3.amazonaws.com/Images/Category/Organicweb.png",
+ https://gnbdevcdn.s3.amazonaws.com/Images/Category/Readytoeatweb.png,
+ https://gnbdevcdn.s3.amazonaws.com/Images/Category/bespokeweb.png,
+ https://gnbdevcdn.s3.amazonaws.com/Images/Category/fineteasweb.png,
+    https://gnbdevcdn.s3.amazonaws.com/Images/Category/fineteasweb.png",
+                "https://gnbdevcdn.s3.amazonaws.com/Images/Category/Exoticvegetablesweb.png" 
+                "https://gnbdevcdn.s3.amazonaws.com/Images/Category/coldcutweb.png" 
+            "https://gnbdevcdn.s3.amazonaws.com/Images/Category/Freshartisinalbreadsweb.png"
+            "https://gnbdevcdn.s3.amazonaws.com/Images/Category/dailyessentialsweb.png"
+            "https://gnbdevcdn.s3.amazonaws.com/Images/Category/hearthealthyfoodsweb.png"
+            "https://gnbdevcdn.s3.amazonaws.com/Images/Category/indiangroceryweb.png"
+            "https://gnbdevcdn.s3.amazonaws.com/Images/Category/confectionaryweb.png"]
+                
+
+itemcartArr=[
+    {img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/93fd2fce-d02c-4ee6-855c-b4526e932afa_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: Sugar Organic - Organic Tattva,
+    pcs: 1 Pc,
+    rate: Buy @ Buy @ Rs.133.00/-
+    MRP: MRP 140
+    price: 133
+}
+{img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/731228a7-5159-4da6-843c-7e3a0bd7ea69_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: COHERE PRAWNS MEDIUM 60G,
+    pcs: 1 Pc,0
+    rate: Buy @ Buy @ Rs.66.75/-
+     MRP: MRP 89.00
+    price: 66.75
+}
+    {img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d45aa5f5-a82e-44e1-b2b6-ce24d1381062_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: CF PEANUT OIL 500ML,
+    pcs: 1 Pc,
+    rate: Buy @ Rs.243.00/-
+     MRP: MRP 270
+    price: 243
+}
+{
+    img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/aff70adb-ae81-439a-8327-2210ffddf312_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: RRO GOATS CHEVRE CHEESE PLAIN 100G,
+    pcs: 1 Pc,
+    rate: Buy @ Rs.327.75/-
+     MRP: MRP 345
+    price: 327.75
+
+}
+{
+    img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d45aa5f5-a82e-44e1-b2b6-ce24d1381062_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: Jaggery Powder Organic - Organic Tattva,
+    pcs: 1 Pc,
+    rate: Buy @ Rs.76.00/-
+    MRP: MRP 80
+    price: 76
+
+}
+
+ {img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/43f2f694-ab16-4087-859e-5dd0dc67ecbe_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: CAMBAY TIGER SURMAI MEDIUM 500 G,
+    pcs: 1 Pc,
+    rate: Buy @ Buy @ Rs.715.00/-
+    MRP: MRP 760
+    price: 715
+}
+{img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/35b40a67-3a78-400c-a525-1f4f993ae6f4_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: Cambay Tiger Deveined & Cleaned Jumbo Prawns 300g,
+    pcs: 1 Pc,
+    rate: Buy @ Buy @ Rs.459.00/-
+    MRP: MRP 499
+    price: 459
+}
+    {img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/2c5d4fb3-aacd-43b0-9817-9d282f8071fc_425x425.JPG",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: GADRE EDAMAME 500G,
+    pcs: 1 Pc,
+    rate: Buy @ Rs.450.00/-
+    MRP: MRP 500
+    price: 450
+}
+{
+    img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/1335140_1_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: YOGA BAR MUESLI ALM & QUINOA 400G,
+    pcs: 1 Pc,
+    rate: Buy @ Rs.249.00/-
+    MRP: MRP 325
+    price: 249
+     
+
+}
+{
+    img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c3497647-39ae-450e-8743-a98db4650398_425x425.jpg",
+    dlvtime: DElIVERY IN 90 MINUTES,
+    productname: Soft Chhese Mozzarella - RRO,
+    pcs: 1 Pc,
+    rate: Buy @ Rs.308.75/-
+    MRP: MRP 325
+    price: 308.75
+
+}
+
+]
+
+
