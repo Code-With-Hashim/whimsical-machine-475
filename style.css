@@ -391,3 +391,11 @@ p :nth-last-child(2) {
 
     
 }
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+
+
