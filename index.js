@@ -167,9 +167,32 @@ let itemcartArr = [
         mrp: "MRP 325",
         price: 308.75
 
+    },
+    {
+        img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/6151dbdd-4c99-4614-a330-6909526fc3f6_425x425.JPG",
+        dlvtime: "DElIVERY IN 90 MINUTES",
+        productname: "Soft Chhese Mozzarella - RRO",
+        pcs: "1 Pc",
+        rate: "Buy @ Rs.308.75/-",
+        mrp: "MRP 325",
+        price: 308.75
+
+    },
+    {
+        img: "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/db1b11f2-57b5-4a37-a6d3-060e1d1ce419_425x425.jpg",
+        dlvtime: "DElIVERY IN 90 MINUTES",
+        productname: "Soft Chhese Mozzarella - RRO",
+        pcs: "1 Pc",
+        rate: "Buy @ Rs.308.75/-",
+        mrp: "MRP"+325.00,
+        price: 308.75
+
     }
 
+
 ]
+
+console.log(itemcartArr.length)
 
 let right_btn = document.getElementById("right-btn1")
 let left_btn = document.getElementById("left-btn1")
@@ -183,32 +206,87 @@ let item2 = document.getElementById("item2")
 let item3 = document.getElementById("item3")
 let item4 = document.getElementById("item4")
 let itemcnt = 0;
-
+let itemcnt2 = 1;
+let itemcnt3 = 2;
+let itemcnt4 = 3;
 
 right_btn.addEventListener("click", function () {
+    itemcnt=itemcnt+4;
+    itemcnt2=itemcnt2+4;
+    itemcnt3=itemcnt3+4;
+    itemcnt4=itemcnt4+4;
 
-    itemcnt++
+    if(itemcnt==12){
+        itemcnt=0
+    }
     item1.src = itemcartArr[itemcnt].img
-    itemcnt++
-    item2.src = itemcartArr[itemcnt].img
-    itemcnt++
-    item3.src = itemcartArr[itemcnt].img
-    itemcnt++
-    item4.src = itemcartArr[itemcnt].img
+    document.getElementById("product1").innerText=itemcartArr[itemcnt].productname
+    document.getElementById("rate").innerText=itemcartArr[itemcnt].rate
+   
+
+    if(itemcnt2==13){
+        itemcnt2=1
+    }
+    item2.src = itemcartArr[itemcnt2].img
+    document.getElementById("product2").innerText=itemcartArr[itemcnt2].productname
+    document.getElementById("rate2").innerText=itemcartArr[itemcnt2].rate
+ 
+    if(itemcnt3==14){
+        itemcnt3=2
+    }
+    item3.src = itemcartArr[itemcnt3].img
+    document.getElementById("product3").innerText=itemcartArr[itemcnt3].productname
+    document.getElementById("rate3").innerText=itemcartArr[itemcnt3].rate
+
+    if(itemcnt4==15){
+        itemcnt4=3
+    }
+    item4.src = itemcartArr[itemcnt4].img
+    document.getElementById("product4").innerText=itemcartArr[itemcnt4].productname
+    document.getElementById("rate4").innerText=itemcartArr[itemcnt4].rate
+   
 
 })
 left_btn.addEventListener("click", function () {
-    itemcnt--
-    item1.src = itemcartArr[itemcnt].img
-    itemcnt--
-    item2.src = itemcartArr[itemcnt].img
-    itemcnt--
-    item3.src = itemcartArr[itemcnt].img
-    itemcnt--
-    item4.src = itemcartArr[itemcnt].img
-    if (itemcnt < 0) {
-        itemcnt = itemcartArr.length - 1
+
+    itemcnt=itemcnt-4;
+    itemcnt2=itemcnt2-4;
+    itemcnt3=itemcnt3-4;
+    itemcnt4=itemcnt4-4;
+
+
+    if(itemcnt < 0){
+        itemcnt=itemcartArr.length-4
     }
+   
+
+    item1.src = itemcartArr[itemcnt].img
+    if(itemcnt2 < 1){
+        itemcnt2=itemcartArr.length-3
+    }
+    document.getElementById("product1").innerText=itemcartArr[itemcnt].productname
+    document.getElementById("rate").innerText=itemcartArr[itemcnt].rate
+
+   
+
+    item2.src=itemcartArr[itemcnt2].img
+    document.getElementById("product2").innerText=itemcartArr[itemcnt2].productname
+    document.getElementById("rate2").innerText=itemcartArr[itemcnt2].rate
+    if(itemcnt3 < 2){
+        itemcnt3=itemcartArr.length-2
+    }
+    item3.src=itemcartArr[itemcnt3].img
+    document.getElementById("product3").innerText=itemcartArr[itemcnt3].productname
+    document.getElementById("rate3").innerText=itemcartArr[itemcnt3].rate
+
+
+    if(itemcnt4 < 3){
+        itemcnt4=itemcartArr.length-1
+    }
+    item4.src=itemcartArr[itemcnt4].img
+    document.getElementById("product4").innerText=itemcartArr[itemcnt4].productname
+    document.getElementById("rate4").innerText=itemcartArr[itemcnt4].rate
+    
 })
 
 let imgdata = ["https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/068d6c36-1d4f-4786-86e5-4233eb873c03_425x425.JPG",
@@ -221,54 +299,90 @@ let imgdata = ["https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailIma
     "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/2d5b84d3-bd1a-4b3c-8223-18b73acceafb_425x425.jpg",
     "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c0581bb8-218a-4fcf-a38b-e7a872f1ad6e_425x425.jpg",
     "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/47bfa747-9af7-4ee0-86d4-6a3a8898154b_425x425.jpg",
+    "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/e833fa18-32ff-4933-8daa-de8784afd9ad_425x425.jpg",
+    "https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/54d367b3-614b-4208-bfdb-b9a4e52cdeb9_425x425.JPG"
 ]
 
 let right_btn1 = document.getElementById("right-btn2")
 let left_btn1 = document.getElementById("left-btn2")
 
-// let itemcnt2=1;
-// let itemcnt3=2;
-// let itemcnt4=3;
+let itemcnt5 = 0;
+let itemcnt6 = 1;
+let itemcnt7 = 2;
+let itemcnt8 = 3;
 
 let item5 = document.getElementById("item5")
 let item6 = document.getElementById("item6")
 let item7 = document.getElementById("item7")
 let item8 = document.getElementById("item8")
-let itemcnt1 = 0;
 
 
-// will be fixed it
+
 right_btn1.addEventListener("click", function () {
+    itemcnt5=itemcnt5+4;
+    itemcnt6=itemcnt6+4;
+    itemcnt7=itemcnt7+4;
+    itemcnt8=itemcnt8+4;
 
-    itemcnt1++
-    item5.src = imgdata[itemcnt1]
-    itemcnt1++
-    item6.src = imgdata[itemcnt1]
-    itemcnt1++
-    item7.src = imgdata[itemcnt1]
-    itemcnt1++
-    if (itemcnt == imgdata.length) {
-        itemcnt1 = 0
+    console.log(itemcnt5, itemcnt6, itemcnt7, itemcnt8)
+
+    if(itemcnt5==12){
+        itemcnt5=0
     }
-    item8.src = imgdata[itemcnt1]
+    item5.src = imgdata[itemcnt5]
 
+    if(itemcnt6==13){
+        itemcnt6=1
+    }
+    item6.src = imgdata[itemcnt6]
+    
+ 
+    if(itemcnt7==14){
+        itemcnt7=2
+    }
+    item7.src = imgdata[itemcnt7]
+    
+    if(itemcnt8==15){
+        itemcnt8=3
+    }
+    item8.src = imgdata[itemcnt8]
+    
 
 })
 
-// Will be fixed it
-left_btn1.addEventListener("click", function () {
-    itemcnt--
-    item5.src = imgdata[itemcnt1]
-    itemcnt--
-    item6.src = imgdata[itemcnt1]
-    itemcnt--
-    item7.src = imgdata[itemcnt1]
 
-    itemcnt--
-    item8.src = imgdata[itemcnt]
-    if (itemcnt1 < 0) {
-        itemcnt1 = imgdata.length - 1
+left_btn1.addEventListener("click", function () {
+    
+    itemcnt5=itemcnt5-4;
+    itemcnt6=itemcnt6-4;
+    itemcnt7=itemcnt7-4;
+    itemcnt8=itemcnt8-4;
+
+
+    if(itemcnt5 < 0){
+        itemcnt5=imgdata.length-4
     }
+   
+
+    item5.src = imgdata[itemcnt5]
+    if(itemcnt6 < 1){
+        itemcnt6=imgdata.length-3
+    }
+    
+
+    item6.src=imgdata[itemcnt6]
+    
+    if(itemcnt7 < 2){
+        itemcnt7=imgdata.length-2
+    }
+    item7.src=imgdata[itemcnt7]
+    
+
+    if(itemcnt8 < 3){
+        itemcnt8=imgdata.length-1
+    }
+    item8.src=imgdata[itemcnt8]
+
 })
 
 let bannerimg = [
